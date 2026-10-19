@@ -1,0 +1,6 @@
+name: astrbot_plugin_doro_home
+desc: Doro 小窝菜单、每日结局图鉴、随机表情、吃什么与手动搬史
+help: 发送“菜单”打开 Doro 小窝；发送“doro帮助”查看全部命令
+version: v0.1.0
+author: "Codex & HUMAN"
+repo: https://github.com/HUMAN00000000/my_first_project

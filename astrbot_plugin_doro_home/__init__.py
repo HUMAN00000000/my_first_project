@@ -1,0 +1,1 @@
+"""Doro Home AstrBot plugin."""

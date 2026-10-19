@@ -1,0 +1,31 @@
+{
+  "enable_qq_keyboard": {
+    "type": "bool",
+    "default": true,
+    "description": "尝试发送 QQ 原生键盘按钮",
+    "hint": "普通 QQ + NapCat 可能不支持发送官方机器人键盘；失败后插件会自动回退为文字命令。"
+  },
+  "doro_image_dir": {
+    "type": "string",
+    "default": "",
+    "description": "Doro 结局图片目录",
+    "hint": "留空时自动读取 astrbot_plugin_doro_today/doro。"
+  },
+  "meme_directory": {
+    "type": "string",
+    "default": "",
+    "description": "表情包目录",
+    "hint": "留空时自动读取表情包小偷的 categories 或 raw 目录。"
+  },
+  "banshi_source_groups": {
+    "type": "list",
+    "default": [],
+    "description": "搬史来源群列表",
+    "hint": "留空时自动读取 astrbot_sowing_discord 的来源群配置。"
+  },
+  "banshi_cooldown_seconds": {
+    "type": "int",
+    "default": 30,
+    "description": "同一目标群手动搬史冷却秒数"
+  }
+}

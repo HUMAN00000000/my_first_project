@@ -1,0 +1,19 @@
+# AstrBot runtime data: user collections, message cache and generated images
+.runtime/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local tooling and editor files
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
